@@ -15,9 +15,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <div className="header">
-          <Link to="/">HOME</Link>
-          <Link to="/shop">SHOP</Link>
-          <Link to="/cart">
+          <Link to="/odin-shopping-cart">HOME</Link>
+          <Link to="/odin-shopping-cart/shop">SHOP</Link>
+          <Link to="/odin-shopping-cart/cart">
             <div className="cart-icon-container">
               <img src={shopping_cart} alt="Shopping Cart" />
               {items.length > 0 && <p>{items.length}</p>}
@@ -25,7 +25,7 @@ function App() {
           </Link>
         </div>
         <Routes>
-          <Route path="/">
+          <Route path="/odin-shopping-cart">
             <Route index element={<Home />} />
             <Route
               path="shop"

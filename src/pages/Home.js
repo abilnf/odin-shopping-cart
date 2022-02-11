@@ -9,7 +9,7 @@ function Home() {
       <h1>Do you want awesome NFTs like this one?</h1>
       <img src={background} alt="" />
       <h1>Then head right to the shop!</h1>
-      <Link to="/shop">SHOP NOW</Link>
+      <Link to="/odin-shopping-cart/shop">SHOP NOW</Link>
     </div>
   );
 }
