@@ -1,0 +1,27 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Home > :first-child {
+  margin-bottom: 100px;
+}
+.Home > a {
+  background-color: #222;
+  border: 0;
+  padding: 16px;
+  font-size: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 10px #0008;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+  color: #999;
+}
+
+.Home > a:hover {
+  box-shadow: 0 0 10px #fff2;
+  transform: scale(1.02);
+}

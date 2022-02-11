@@ -1,0 +1,30 @@
+.Item {
+  background-color: #444;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.Item > h2,
+.Item > h3 {
+  text-align: center;
+}
+
+.add-to-cart-container {
+  border-radius: 16px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 16px 16px 16px 1fr;
+}
+
+.add-to-cart-container input::-webkit-outer-spin-button,
+.add-to-cart-container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.add-to-cart-container input {
+  -moz-appearance: textfield;
+}
+
+button {
+  padding: 0;
+}

@@ -1,0 +1,9 @@
+.Shop {
+  padding: 8px;
+}
+
+.Shop > div {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 16px;
+}
